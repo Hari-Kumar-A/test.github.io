@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+*{
+    box-sizing: border-box;
+    background-color: lightpink;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: underline;
+}
+#main{
+    width:100%;
+    height:100vh;
+    position:relative;
+    
+}
+nav{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    z-index:1;
+    box-shadow: 5px 10px 30px lightslategrey;
+}
+.logo img{
+    height:45px;
+}
+nav ul{
+    display:flex;
+}
+nav ul li a{
+    height:40px;
+    line-height:43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display:flex;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:black;
+    letter-spacing: 1px;
+}
+nav ul li a:hover{
+    background-color:lightseagreen;
+    color:white;
+    box-shadow:5px 10px 20px;
+    transition: all ease 0.2s;
+
+}
+.model img{
+    height:500px;
+    width:500px;
+    object-fit: contain;
+}
+.content{
+    width:90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute;
+    left:50%;
+    top: 20%;
+}
+.text{
+    width:500px;
+}
+.text h1{
+    font-size: 3.5rem;
+    color:darkblue;
+    margin:0px 0px 10px 0px;
+    line-height: 60px;
+}
+.text p{
+    color:darkred;
+    font-size: 2rem;
+}
+#skills{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:90%;
+    margin:100px 10px 10px 10px;
+}
+ 
+.skillheading span{
+    color:darkred;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+.skillheading h2{
+     font-size: 1.5rem;
+     text-decoration: underline;
+     margin-left:30px;
+     font-weight: 400;
+}
+.skillheading ul{
+    font-size: 1.5rem;
+    color: darkblue;
+    padding:20px;
+    box-shadow: 10px 10px 10px 5px red;
+}
+#hobbies{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:90%;
+    margin-right:20px;
+    margin-left: 770px;
+     
+}
+.hobbyheading ul{
+    font-size: 1.5rem;
+    color: darkblue;
+    padding:20px;
+    box-shadow: 10px 10px 10px 5px red;
+}
+.hobbyheading h2{
+    text-decoration: underline;
+}
+#TechnicalSkills{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:90%;
+    margin-right:770px;
+    margin-left: 300px;
+     
+}
+.techheading ul{
+    font-size: 1.5rem;
+    color: darkblue;
+    padding:20px;
+    box-shadow: 10px 10px 10px 5px red;
+}
+.techheading h2{
+    text-decoration: underline;
+}
+#mail{
+    margin-left:900px;
+    margin-right:0px;
+}
+#mail h3{
+     color:black;
+     font-size: 1.7rem;
+      
+     
+}
